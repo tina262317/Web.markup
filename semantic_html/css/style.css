@@ -1,0 +1,11 @@
+article {
+    float: left;
+    margin: 0 1.5%;
+    width: 70%;
+  }
+  aside {
+    float: right;
+    margin: 0 1.5%;
+  width: 30%;
+  }
+  
