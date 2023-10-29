@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Baskervville">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Libre+Baskerville">
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+           <a href="homepage.html"> <img class="logo-img" title="Go back to homepage" src="img/logo.png" alt="Website logo" href="homepage.html"> </a>
+           <figure class="vl"></figure>
+           <a href="homepage.html">Home</a>
+           <figure class="vl"></figure>
+           <a href="schools.html" title="See the schools in the area">Schools</a>
+           <figure class="vl"></figure>
+           <a href="parks.html" title="See the parks in the area">Parks</a>
+           <figure class="vl"></figure>
+           <a href="sports fields.html" title="See the sport fields in the area">Sport Fields</a>
+           <figure class="vl"></figure>
+           <a href="houses.html" title="See some of the houses in the area">Houses</a>
+           <figure class="vl"></figure>
+           <a class="active" rel="author" href="contact page.html" title="Have a question?">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+    <article class="contact">
+        <h1>Do you have a question or a request?</h1>
+        <p class="required"><em><span class="required">*</span> Please fill out all of the required fields!</em></p>
+
+        <form>
+
+            <label for="title">Title <span class="required">*</span></label>
+            <fieldset class="title">
+            <legend>Title</legend>
+            <input type="radio" id="title" name="title" value="Miss" required>
+            <label id="title">Miss</label>
+            <input type="radio" id="title" name="title" value="Mrs." required>
+            <label id="title">Mrs.</label>
+            <input type="radio" id="title" name="title" value="Mr." required>
+            <label id="title">Mr.</label>
+            </fieldset>
+
+            <label for="name">Name <span class=required>*</span></label>
+            <input type="text" class="input" id="name" name="name" placeholder="Text" required>
+
+            <label for="email">Email address <span class="required">*</span></label>
+            <input type="email" class="input" id="email" name="email" placeholder="your@email.com" required>
+
+            <label for="email">Confirm Email address <span class="required">*</span></label>
+            <input type="email" class="input" id="email" name="email" placeholder="your@email.com" required>
+
+            <label for="number">Phone number</label>
+            <input type="number" step="1" min="06-00000000" max="06-99999999" class="input" id="number" name="number" placeholder="06-00000000">
+
+            <label for="question">Your question / request <span class="required">*</span></label>
+            <input type="text" class="input-question" id="question" name="question" placeholder="Text" required>
+
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </article>
+
+    <aside class="contact">
+        <h1><strong>Contact information</strong></h1>
+        <p>&#9990; 06-57752788</p>
+        <p>&#9993; bestuur@oosterduinen.nl</p>
+        <p class="map"><i class='icon'></i> Oosterduin, Haarlem, Netherlands</p>
+    </aside>
+</section> 
+    <footer>
+        <h3>&copy; Tina Naseri 2023</h3>
+    </footer>
+</body>
+</html>

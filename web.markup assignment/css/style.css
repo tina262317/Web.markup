@@ -1,0 +1,502 @@
+/*general style*/
+body {
+    font-family: "Baskervville", serif;
+  }
+
+/*navigation bar*/
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    float: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex: 0 2 500px;
+    box-shadow: 0px 1px 8px gray;
+  }
+
+.logo-img {
+    height: 100%;
+    width: 220px;
+ }
+.topnav a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    height: 100%;
+  }
+
+  /* Add a color to the active link */
+.topnav a.active {
+    color: #1AB420;
+  }
+
+.vl {
+    border-left: 2px solid black;
+    height: 50px;
+  }
+
+/*slideshow*/
+.slideshow-container-homepage {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+}
+.slideshow-img-homepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 600px;
+    border-radius: 25px;
+  }
+
+/* the buttons */
+.button-container-homepage {
+    top: 20px;
+    margin-left: 9%;
+    position: absolute;
+    display: grid;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.button {
+    background-color:#1AB420;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    max-width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.button:hover {
+    box-shadow: 4px 4px #168F1B;
+}
+.button:active, a.school:active, a.parks:active, a.houses:active, a.sports:active, .submit {
+  background-color: #168F1B;
+} 
+
+
+a.button + a.button { margin-top: 20px; }
+
+
+/* style the text */
+h1, p, h2, figcaption {
+    margin-left: 7.5%;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+    word-spacing: normal;
+    line-height: normal;
+}
+h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #168F1B;
+    margin-top: 25px;
+    font-size: 32px;
+}
+p, figcaption {
+    margin-right: 7.5%;
+    font-size: 20px;
+}
+
+/* the footer */
+footer {
+    background-color: #168F1B;
+    width: 100%;
+}
+h3 {
+    font-weight: lighter;
+    color: white;
+    margin: 25px;
+    font-size: 24px;
+    font-family: "Libre Baskerville", serif;
+    text-align: left;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+/*for school page container*/
+.school-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/*for school page, the images*/
+aside.parks > h1, p.school, aside.parks > p {
+  margin-left: 0px;
+}
+
+h1.school {
+  margin-left: -8%;
+}
+article.school {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin-top: -160px;
+  width: 50%;
+}
+img.school {
+  border-radius: 25px;
+  height: 320px;
+  width: 530px;
+}
+img.school + img.school { margin-top: 50px; }
+
+section.school1, section.school2 {
+    margin-left: 7%;
+    position: absolute;
+    display: grid;
+    max-width: 120px;
+}
+
+section.school1 {
+  margin-top: 7.7%;
+}
+section.school2 {
+  margin-top: 33.3%;
+}
+
+a.school {
+  background-color:#1AB420;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+a.school:hover {
+  box-shadow: 4px 4px #168F1B;
+}
+a.school + a.school {
+  margin-top: 15px;
+}
+
+/*for school page, the list and the text*/
+aside.school {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  width: 50%;
+  margin-right: 3%;
+}
+
+li, h2 {
+  font-family: "Libre Baskerville", serif;
+  color: #168F1B;
+  font-size: 28px;
+}
+
+li {
+  margin-top: 70px;
+}
+
+/*for the park page*/
+a.parks {
+  background-color:#1AB420;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 6.5%;
+  margin-top: 5%;
+  position: absolute;
+  max-width: 120px;
+}
+
+a.parks:hover {
+  box-shadow: 4px 4px #168F1B;
+}
+
+.parks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+article.parks {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  width: 50%;
+}
+
+article.parks > img {
+  border-radius: 25px;
+  width: 514px;
+  height: 600px;
+  margin-top: -200px;
+}
+article.parks > p {
+  width: 514px;
+}
+
+aside.parks {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: left;
+  width: 50%;
+  margin-right: 5%;
+}
+
+aside.parks > img {
+  border-radius: 25px;
+  width: 717px;
+  height: 547px;
+}
+aside.parks > p {
+  width: 717px;
+}
+
+article.parks > p {
+  margin-top: 150px;
+}
+aside.parks > h1 {
+  margin-top: 150px;
+}
+aside.parks > img {
+  margin-top: 150px;
+}
+
+/*for the sports fields page*/
+section.sports {
+  margin-top: 33%;
+  margin-left: 9%;
+  position: absolute;
+  display: grid;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+a.sports  {
+  background-color:#1AB420;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  max-width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+a.sports:hover {
+  box-shadow: 4px 4px #168F1B;
+}
+a.sports + a.sports {
+  margin-top: 25px;
+}
+
+article.sports {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: left;
+  margin-top: 2%;
+}
+
+figure.sports{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+img.sports {
+  border-radius: 25px;
+  width: 1220px; 
+  height: 792px;
+  align-self: center;
+}
+figcaption {
+  margin-top: 25px;
+  width: 1220px; 
+}
+
+/* for the houses page*/
+section.houses {
+  margin-top: 29%;
+  margin-left: 9%;
+  position: absolute;
+  display: grid;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+a.houses {
+  background-color:#1AB420;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  max-width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+a.houses:hover {
+  box-shadow: 4px 4px #168F1B;
+}
+a.houses + a.houses {
+  margin-top: 25px;
+}
+article.houses {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: left;
+  margin-top: 2%;
+}
+img.houses {
+  border-radius: 25px;
+  width: 1220px; 
+  height: 900px;
+  align-self: center;
+}
+
+
+/* for the contact page*/
+section.contact{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 75% 25%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: -2%;
+}
+
+p.required {
+  text-indent: 1em;
+}
+
+span.required {
+  color: red;
+}
+form {
+  display: grid;
+  justify-content:center;
+  align-items: left;
+  margin-top: 2em;
+  float: left;
+  margin-left: 7.5%;
+}
+legend {
+  display: none;
+}
+label {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+
+input {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "Baskervville", serif;
+  letter-spacing: 1.2px;
+}
+input + label {
+  margin-top: 2em;
+}
+fieldset + label {
+  margin-top: 2em;
+}
+label + input, label + fieldset {
+  margin-top: 0.5em;
+}
+.input, .input-question, fieldset.title {
+  border-color: #66666670 ;
+  border-style: solid;
+  border-width: 1.5px;
+  background-color: #F8FAFC;
+  border-radius: 15px;
+}
+.input {
+  height: 47px;
+  width: 330px;
+  text-indent: 1em;
+}
+.input-question {
+  height: 74px;
+  width: 330px;
+  text-indent: 1em
+}
+.submit {
+  background-color: #1AB420;
+  border-radius: 10px;
+  border-style: none;
+  height:70px;
+  width: 175px;
+  margin-top: 2em;
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  color: white
+}
+.submit:hover {
+  box-shadow: 4px 4px #168F1B;
+}
+
+aside.contact {
+  display: grid;
+  justify-content:center;
+  align-items: left;
+  background-color: #168F1B;
+  padding: 15px;
+  padding-left: 5px;
+  border-radius: 25px;
+  padding-bottom: 100px;
+}
+aside.contact > h1{
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 32px;
+}
+h1::first-letter {
+  font-family: "Libre Baskerville", serif;
+}
+
+aside.contact > p {
+  color: white;
+}
+
+.icon {
+  box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+.icon::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 1px 0 0 -5.7px;
+    display: block;
+    content: '';
+    border: 6px solid transparent;
+    border-top: 10px solid white;
+    border-bottom: none;
+}
+p.map {
+    padding-left: 1.5em;
+    text-indent:-1.4em;
+}

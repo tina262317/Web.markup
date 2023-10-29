@@ -1,0 +1,11 @@
+Student name: Tina Naseri 
+Student number: 713262
+Student class: IT1D
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL
+
+Notes:
+* there is a legend html tag hidden in the code and not visible in the design due to it not going well with the design, it has
+ been included just to demonstrate the ability to use the legend tag.
+* some elements and properties that we needed to use to demonstrate our abilities were redundant in the design so I've included
+ them in the code but they have no display function such as the pseudo-element first-letter.
