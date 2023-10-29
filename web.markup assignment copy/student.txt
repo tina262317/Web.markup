@@ -1,5 +1,0 @@
-Student name: Tina Naseri 
-Student number: 713262
-Student class: IT1D
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL

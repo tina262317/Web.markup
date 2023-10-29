@@ -9,3 +9,6 @@ Notes:
  been included just to demonstrate the ability to use the legend tag.
 * some elements and properties that we needed to use to demonstrate our abilities were redundant in the design so I've included
  them in the code but they have no display function such as the pseudo-element first-letter.
+* the design did not include a table so "pseudo-class nth-child to color the even horizontal lines the background color #CFF and 
+ odd lines #FFF from a table" could not be demonstrated
+* 
