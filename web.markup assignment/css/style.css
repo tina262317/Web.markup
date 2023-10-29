@@ -378,7 +378,6 @@ section.contact{
   grid-template-columns: 75% 25%;
   margin-top: 3%;
   margin-left: 5%;
-  margin-right: -2%;
 }
 
 p.required {
@@ -499,4 +498,42 @@ aside.contact > p {
 p.map {
     padding-left: 1.5em;
     text-indent:-1.4em;
+}
+
+/* the cookies message*/
+.cookie-overlay {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: #168F1B;
+  z-index: 9999;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  border-radius: 10px;
+  color:white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  > section:first-child {
+    width: 500px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .close-cookies {
+    cursor: pointer;
+  }
+
+  
+}
+.acceptBtn {
+  color: white;
+  background-color: #1AB420;
+  border-radius: 5px;
+  font-family: "Baskervville", serif;
+  font-size: 14px;
+  border-color: #168F1B;
 }
