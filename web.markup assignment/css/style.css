@@ -128,19 +128,20 @@ h3 {
 }
 
 /*for school page, the images*/
-aside.parks > h1, p.school, aside.parks > p {
+p.school, aside.parks > p, aside.parks > h1 {
   margin-left: 0px;
 }
 
-h1.school {
+h1.school{
   margin-left: -8%;
 }
+
 article.school {
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  margin-top: -160px;
+  margin-top: -150px;
   width: 50%;
 }
 img.school {
@@ -158,10 +159,10 @@ section.school1, section.school2 {
 }
 
 section.school1 {
-  margin-top: 7.7%;
+  margin-top: 9.7%;
 }
 section.school2 {
-  margin-top: 33.3%;
+  margin-top: 35.2%;
 }
 
 a.school {
@@ -186,9 +187,10 @@ aside.school {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items:center;
+  align-items:start;
   width: 50%;
   margin-right: 3%;
+  margin-top: 100px;
 }
 
 li, h2 {
@@ -197,9 +199,6 @@ li, h2 {
   font-size: 28px;
 }
 
-li {
-  margin-top: 70px;
-}
 
 /*for the park page*/
 a.parks {
@@ -250,7 +249,7 @@ aside.parks {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: center;
+  align-items: start;
   width: 50%;
   margin-right: 5%;
 }
@@ -306,7 +305,7 @@ article.sports {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: center;
+  align-items: start;
   margin-top: 2%;
 }
 
@@ -315,6 +314,7 @@ figure.sports{
   flex-direction: column;
   justify-content:center;
   align-items: center;
+  margin-left: 7.5%;
 }
 img.sports {
   border-radius: 25px;
@@ -358,7 +358,7 @@ article.houses {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: center;
+  align-items: start;
   margin-top: 2%;
 }
 img.houses {
@@ -513,11 +513,7 @@ p.map {
   color:white;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  width: 500px,
-
-  section:first-child {
-    width: 500px;
-  }
+  width: 500px;
 }
 .acceptBtn {
   color: white;
