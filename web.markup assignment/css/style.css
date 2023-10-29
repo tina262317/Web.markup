@@ -7,7 +7,6 @@ body {
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
-    float: center;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -251,7 +250,7 @@ aside.parks {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: left;
+  align-items: center;
   width: 50%;
   margin-right: 5%;
 }
@@ -307,7 +306,7 @@ article.sports {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: left;
+  align-items: center;
   margin-top: 2%;
 }
 
@@ -359,7 +358,7 @@ article.houses {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  align-items: left;
+  align-items: center;
   margin-top: 2%;
 }
 img.houses {
@@ -390,7 +389,7 @@ span.required {
 form {
   display: grid;
   justify-content:center;
-  align-items: left;
+  align-items: center;
   margin-top: 2em;
   float: left;
   margin-left: 7.5%;
@@ -455,7 +454,7 @@ label + input, label + fieldset {
 aside.contact {
   display: grid;
   justify-content:center;
-  align-items: left;
+  align-items: center;
   background-color: #168F1B;
   padding: 15px;
   padding-left: 5px;
@@ -514,20 +513,11 @@ p.map {
   color:white;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 500px,
 
-  > section:first-child {
+  section:first-child {
     width: 500px;
   }
-
-  a {
-    text-decoration: underline;
-  }
-
-  .close-cookies {
-    cursor: pointer;
-  }
-
-  
 }
 .acceptBtn {
   color: white;
